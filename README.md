@@ -23,7 +23,9 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/videos](http://localhost:3000/api/videos). This endpoint can be edited in `pages/api/videos.ts`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+___
+<br>
 
-### Important
+## Routes
 
-Create a folder called 'videos' in src folder.
+To navigate to your video, make sure to access `localhost:3000/videos/{name of video}` => http://localhost:3000/videos/video_01
